@@ -9,7 +9,6 @@ dotenv.config();
 // parsing data to json
 app.use(express.json());
 
-// DB connection
 mongoose
   .connect(process.env.MONGO_STR)
   .then(() => {
