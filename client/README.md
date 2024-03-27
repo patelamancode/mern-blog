@@ -14,6 +14,12 @@ Creating pages and Routes and installing react-router-dom
 installing flowbite-react and setting up with tailwind css
 Creating components and Header section
 Installing react-icons to use in Header  section for Icons
+Setting up backend
+initialise the package folder, and creating server index file
+installing express & mongoose and perform  test api call
+creating folder structure for models, routes, controller.
+
+
 
 
  -->
