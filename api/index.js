@@ -1,8 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import userRoutes from "../api/routes/user-route.js";
-import signupRoutes from "../api/routes/auth-routes.js";
+import authRoutes from "../api/routes/auth-routes.js";
 
 const app = express();
 dotenv.config();
@@ -17,8 +16,7 @@ mongoose
   .catch((err) => console.log(err));
 
 //   API  calls
-app.use("/api/user", userRoutes);
-app.use("/api/auth", signupRoutes);
+app.use("/api/auth", authRoutes);
 
 // Listening on port
 app.listen(3000, () => {
