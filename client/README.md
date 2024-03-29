@@ -18,6 +18,10 @@ Setting up backend
 initialise the package folder, and creating server index file
 installing express & mongoose and perform  test api call
 creating folder structure for models, routes, controller.
+create test route and estabilish wire connection between express, mongoDB by mongoose, and provded routes.
+create signup then signup UI and then same signin.
+using bcryptjs for pass hashing, and jwt for auth then navigating to home
+Creating redux store and saving user data in json response.
 
 
 
